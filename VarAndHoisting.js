@@ -15,7 +15,12 @@
 
 // var age;
 
-console.log(name);
-name='Mark';
-console.log(name);
-var name;
+// console.log(name);
+// name='Mark';
+// console.log(name);
+// var name ='Woongjae';//선언만 올라감 값은 올라가지 않음
+// let name;
+// console.log(name);
+// name='Mark';
+// console.log(name);
+// let name;//hoisting이 일어나지 않음
