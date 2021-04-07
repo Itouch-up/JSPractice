@@ -34,5 +34,13 @@ if(b){
 //Null
 const c = null
 console.log(c,typeof c)
+//undefined
 let d
 console.log(d,typeof d)
+
+if(c==d){
+    console.log(a==b)
+}
+if(c===d){
+    console.log(c===d)
+}
