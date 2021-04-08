@@ -44,3 +44,29 @@ if(c==d){
 if(c===d){
     console.log(c===d)
 }
+//number
+const e = 37
+console.log(e,typeof e)
+const f = 3.14
+console.log(f,typeof f)
+
+const g = NaN
+console.log(g,typeof g)
+const h = Number('Mark')
+console.log(h,typeof h)
+const i = Number('37')
+console.log(i,typeof i)
+//String
+const j = 'mark'
+console.log(j, typeof j)
+const k = "Mark"+"Lee"
+console.log(k,typeof k)
+const l = `${j} Lee`
+console.log(l)
+//symbol
+const m = Symbol()
+const n = Symbol(37)
+const o = Symbol('Mark')
+const p = Symbol('Matk')
+console.log(m ,typeof m)
+console.log(o===p)
