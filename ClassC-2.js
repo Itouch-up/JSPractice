@@ -1,4 +1,4 @@
-//static
+//static 변수 함수
 class A{
   static age = 37
   static hello(){
