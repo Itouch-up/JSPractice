@@ -14,5 +14,10 @@ class B{
   }
 }
 console.log(B,B.age)
-B.hello
-new B().hello()
+B.hello()
+// new B().hello()
+
+class C{
+  static name='이 클래스의 이름은 C가 아니다.'
+}
+console.log(C)
