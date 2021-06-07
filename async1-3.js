@@ -6,7 +6,7 @@ function p(ms){
     }, ms)
   })
 }
-
+//await
 (async function main(){
   const ms = await p(1000)
 })()
