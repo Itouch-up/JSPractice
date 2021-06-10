@@ -12,5 +12,6 @@ p(1000).then(ms=>{
   console.log(`${ms}ms 후에 실행된다`)
 })
 
+//error
 const ms=await p(1000)
 console.log(`${ms} ms 후에 실행된다.`)
